@@ -36,7 +36,7 @@ const LoginPage = () => {
           </b>
         </div>
         <div className="card-body h-50">
-          <form action="Home.js" onSubmit={handleLogin}>
+          <form >
             <div className="input-group mb-3 w-75 mx-auto">
               <input
                 type="email"
@@ -57,6 +57,7 @@ const LoginPage = () => {
               <button
                 type="submit"
                 className="btn btn-primary btn-block  w-75 rounded-5 bg-dark text-white border-0"
+                onSubmit={handleLogin}
               >
                 Sign In
               </button>
