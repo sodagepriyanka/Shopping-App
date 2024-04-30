@@ -8,9 +8,9 @@ const Cart = () => {
     setCounter(
     )
   }
-  const handleRemove=()=>{
-    setCounter(counter-1);
-  }
+  // const handleRemove=()=>{
+  //   setCounter(counter-1);
+  // }
   return (
     <div>
       <div className="container text-center">
@@ -26,7 +26,7 @@ const Cart = () => {
                     <h6 className="text-start fs-6 fw-light">₹{data.price}</h6>
                   </div>
                   <div className="col">
-                    <button className="btn" onClick={handleRemove}>-</button>
+                    
                     <button className="btn">{counter}</button>
                     <button className="btn" onClick={handleAdd}>+</button>
                   </div>
