@@ -26,7 +26,7 @@ const Cart = () => {
                     <h6 className="text-start fs-6 fw-light">₹{data.price}</h6>
                   </div>
                   <div className="col">
-                    
+                  
                     <button className="btn">{counter}</button>
                     <button className="btn" onClick={handleAdd}>+</button>
                   </div>
