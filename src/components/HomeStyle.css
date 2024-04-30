@@ -1,0 +1,27 @@
+.shop-now {
+    position: absolute;
+    top:55%;
+    left:52%;
+    color: #222;
+    font-size:large;
+    border-radius: 8px;
+    padding: 2px;
+}
+.shop-now:hover{
+    background-color: black;
+    color: white;
+}
+.h1-txt{
+    position: absolute;
+    top:40%;
+    left:40%;
+    color:white;
+    font-size: larger
+}
+.h3-txt{
+    position: absolute;
+    top:48%;
+    left:42%;
+    color:white;
+}
+
