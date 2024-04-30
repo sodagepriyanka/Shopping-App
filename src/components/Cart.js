@@ -8,9 +8,9 @@ const Cart = () => {
     setCounter(
     )
   }
-  // const handleRemove=()=>{
-  //   setCounter(counter-1);
-  // }
+  const handleRemove=()=>{
+    setCounter(counter-1);
+  }
   return (
     <div>
       <div className="container text-center">
